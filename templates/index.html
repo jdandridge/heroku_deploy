@@ -1,10 +1,27 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        <h1>Hello worlds</h1>
-    </body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<div class="wrapper">
+		<div class="thin-bar"></div>
+
+		<!-- About Section-->
+		{% include "about.html" %}
+
+		<!-- Experience Section-->
+		{% include "experience.html" %}
+
+		<!-- Work Section-->
+		{% include "work.html" %}
+
+		<!-- Learning Section-->
+		{% include "learning.html" %}
+
+		<!-- FooterCTA Section-->
+		{% include "footercta.html" %}
+
+		<!-- Footer Section-->
+		{% include "footer.html" %}
+
+	</div>
+
+{% endblock content %}
