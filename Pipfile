@@ -10,7 +10,7 @@ python_version = "3.6"
 "psycopg2-binary" = "*"
 django-heroku = "*"
 gunicorn = "*"
-django = "==2.2.2"
+django = "==2.2.20"
 requests = "*"
 
 [dev-packages]
